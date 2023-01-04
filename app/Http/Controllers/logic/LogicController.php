@@ -10,4 +10,16 @@ class LogicController extends Controller
     public function index(){
         return view('others.grid_flex');
     }
+
+    public function dimensiones(){
+        return view('others.dimensiones_espacios');
+    }
+
+    public function texto(){
+        return view('others.texto_tipografia');
+    }
+
+    public function display(){
+        return view('others.display');
+    }
 }

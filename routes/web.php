@@ -17,4 +17,10 @@ use App\Http\Controllers\logic\LogicController;
 /*vista principal*/ 
 Route::get('/', [LogicController::class, 'index'])->name('index');
 
+Route::get('/dimensiones', [LogicController::class, 'dimensiones'])->name('dimensiones');
+
+Route::get('/texto', [LogicController::class, 'texto'])->name('texto');
+
+Route::get('/display', [LogicController::class, 'display'])->name('display');
+
 
