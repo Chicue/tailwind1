@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class LogicController extends Controller
 {
     public function index(){
-        return view('others.index');
+        return view('others.grid_flex');
     }
 }
