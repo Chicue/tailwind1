@@ -10,23 +10,12 @@
     @yield('title')
 </head>
 
-<body class="bg-fondo">
+<body class="">
 
-    <!--<header class="bg-blue-300">
-        <nav>
-           <h3>texto</h3> 
-        </nav>
-    </header>-->
-
-    <section>
+    <section class="flex flex-wrap flex-col mx-auto mt-16 h-1/2 w-4/5 bg-slate-300">
         @yield('content')
     </section>
 
-    <footer>
-      
-    </footer>
-
-    
 </body>
 
 </html>

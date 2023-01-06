@@ -17,10 +17,21 @@ use App\Http\Controllers\logic\LogicController;
 /*vista principal*/ 
 Route::get('/', [LogicController::class, 'index'])->name('index');
 
+/*vista principal*/ 
+Route::get('/grid', [LogicController::class, 'grid'])->name('grid');
+
 Route::get('/dimensiones', [LogicController::class, 'dimensiones'])->name('dimensiones');
 
 Route::get('/texto', [LogicController::class, 'texto'])->name('texto');
 
 Route::get('/display', [LogicController::class, 'display'])->name('display');
+
+Route::get('/flex', [LogicController::class, 'flex'])->name('flex');
+
+Route::get('/utilerias', [LogicController::class, 'utilerias'])->name('utilerias');
+
+Route::get('/variantes', [LogicController::class, 'variantes'])->name('variantes');
+
+Route::get('/practica', [LogicController::class, 'practica'])->name('practica');
 
 
