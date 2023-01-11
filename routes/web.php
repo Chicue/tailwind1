@@ -34,4 +34,9 @@ Route::get('/variantes', [LogicController::class, 'variantes'])->name('variantes
 
 Route::get('/practica', [LogicController::class, 'practica'])->name('practica');
 
+Route::get('/card', [LogicController::class, 'card'])->name('card');
+
+
+Route::get('/platzifood', [LogicController::class, 'platzifood'])->name('platzifood');
+
 

@@ -10,9 +10,9 @@
     @yield('title')
 </head>
 
-<body class="">
+<body class="bg-slate-500">
 
-    <section class="flex flex-wrap flex-col mx-auto mt-16 w-4/5 bg-slate-300">
+    <section class="flex flex-wrap flex-col mx-auto mt-16 w-4/5">
         @yield('content')
     </section>
 

@@ -42,4 +42,12 @@ class LogicController extends Controller
     public function practica(){
         return view('others.practica1');
     }
+
+    public function card(){
+        return view('others.card');
+    }
+
+    public function platzifood(){
+        return view('others.platzifood');
+    }
 }

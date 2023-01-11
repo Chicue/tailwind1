@@ -18,5 +18,8 @@
         <a class="bg-lime-500 rounded-lg mr-3 mt-3 p-5" href="/texto">TEXTO Y TIPOGRAFIA</a>
         <a class="bg-lime-400 rounded-lg mr-3 mt-3 p-5" href="/utilerias">UTILERIAS</a>
         <a class="bg-lime-300 rounded-lg mr-3 mt-3 p-5 mb-8" href="/variantes">VARIANTES Y PSEUDOCLASES</a>
+        <a class="bg-lime-200 rounded-lg mr-3 mt-3 p-5 mb-8" href="/practica">PRACTICA1</a>
+        <a class="bg-lime-100 rounded-lg mr-3 mt-3 p-5 mb-8" href="/card">CARD</a>
+        <a class="bg-orange-800 rounded-lg mr-3 mt-3 p-5 mb-8" href="/platzifood">PLATZIFOOD</a>
     </div>
 @endsection

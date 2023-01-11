@@ -10,11 +10,10 @@
     @yield('title')
 </head>
 
-<body class="">
+<!--min-h-screen alto del documento es del alto de la pantalla-->
+<body class="min-h-screen bg-slate-400 mx-4 mb-8 md:flex md:flex-wrap">
 
-    <section class="flex flex-wrap flex-col mx-auto mt-16 w-4/5 bg-slate-300">
-        @yield('content')
-    </section>
+    @yield('content')
 
 </body>
 
