@@ -47,7 +47,15 @@ class LogicController extends Controller
         return view('others.card');
     }
 
+    public function header(){
+        return view('others.header');
+    }
+
     public function platzifood(){
         return view('others.platzifood');
+    }
+
+    public function footer(){
+        return view('others.footer');
     }
 }

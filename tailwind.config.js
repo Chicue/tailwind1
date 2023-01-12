@@ -5,16 +5,24 @@ module.exports = {
     "./resources/**/*.js",
     "./resources/**/*.vue",
   ],
+
+  /*tailwind.config.full.js*/ 
   theme: {
     extend: {
       
       colors: {
         transparent: 'transparent',
         'fondo': '#fff',
-        'primary': '#6C94D4',
-        'secondary': '#67D5E0',
+        'primary': '#f3c614',
+        'secondary': '#353535',
         'accent': '#61EDAA',
       },
+
+      /*estoy agregando una escala de medida mas*/
+      height: {
+        '80': '20rem', 
+        '100': '25rem' 
+      }
 
     },
   },
